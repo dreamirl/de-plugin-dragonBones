@@ -1,3 +1,7 @@
+import DE from '@dreamirl/dreamengine';
+
+const PIXI = DE.PIXI;
+
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -15689,10 +15693,10 @@ var dragonBones;
             }
             if (this._geometryData !== null) {
                 var meshDisplay = this._renderDisplay;
-                meshDisplay.texture = null;
+                //meshDisplay.texture = null;
                 meshDisplay.x = 0.0;
                 meshDisplay.y = 0.0;
-                meshDisplay.visible = false;
+                //meshDisplay.visible = false;
             }
             else {
                 var normalDisplay = this._renderDisplay;
